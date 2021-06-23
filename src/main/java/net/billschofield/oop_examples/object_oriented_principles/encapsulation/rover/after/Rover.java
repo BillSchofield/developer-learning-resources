@@ -1,4 +1,4 @@
-package net.billschofield.oop_examples.object_oriented_principles.encapsulation.after;
+package net.billschofield.oop_examples.object_oriented_principles.encapsulation.rover.after;
 
 public class Rover {
     private int x;

@@ -1,4 +1,4 @@
-package net.billschofield.oop_examples.object_oriented_principles.encapsulation.before;
+package net.billschofield.oop_examples.object_oriented_principles.encapsulation.rover.before;
 
 public class Main {
     public static void main(String[] args) {
