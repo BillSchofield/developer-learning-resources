@@ -1,5 +1,7 @@
 package net.billschofield.oop_examples.refactoring.parallel.game_math.before;
 
+import static java.lang.Math.*;
+
 public class Character {
 	private final String name;
 	private double heading;
@@ -38,6 +40,6 @@ public class Character {
 	}
 
 	public String toString(){
-		return "Character: " + name + ", Heading: " + heading + ",  Position: (" + x + ", " + y + ")";
+		return "Character: " + name + ", Heading: " + heading * 180/ PI + ",  Position: (" + x + ", " + y + ")";
 	}
 }
