@@ -11,9 +11,6 @@ public class PlayerController {
 
 	public void update() {
 		player.faceTarget(target);
-		System.out.println(player);
-
 		player.moveForward();
-		System.out.println(player);
 	}
 }
