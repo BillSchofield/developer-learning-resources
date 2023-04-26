@@ -1,14 +1,14 @@
 package net.billschofield.oop_examples.java_language_features.collections;
 
 
-import org.junit.Before;
-import org.junit.Test;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.util.*;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class HashMapTest {
 
@@ -36,7 +36,7 @@ public class HashMapTest {
 
     }
 
-    @Before
+    @BeforeEach
     public void setUp() {
         stringToStringMap = new HashMap<>();
     }
@@ -46,7 +46,7 @@ public class HashMapTest {
         stringToStringMap.put("1", "a");
         stringToStringMap.put("1", "b");
 
-        assertThat(stringToStringMap.get("1"), is("b"));
+        assertThat(stringToStringMap.get("1")).isEqualTo("b");
     }
 
     @Test
@@ -63,7 +63,7 @@ public class HashMapTest {
         String[] keys = new String[3];
         keySet.toArray(keys);
 
-        assertThat(keys, is(not(inOrderAdded)));
+        assertThat(keys).isNotEqualTo(inOrderAdded);
     }
 
     @Test
@@ -80,7 +80,7 @@ public class HashMapTest {
         String[] keys = new String[2];
         keySet.toArray(keys);
 
-        assertThat(keys, is(not(inAlphabeticalOrder)));
+        assertThat(keys).isNotEqualTo(inAlphabeticalOrder);
     }
 
 }

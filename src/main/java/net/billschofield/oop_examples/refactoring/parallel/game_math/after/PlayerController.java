@@ -4,7 +4,6 @@ public class PlayerController {
 
 	private final Character player;
 	private final Character target;
-
 	public PlayerController(Character player, Character target) {
 		this.player = player;
 		this.target = target;

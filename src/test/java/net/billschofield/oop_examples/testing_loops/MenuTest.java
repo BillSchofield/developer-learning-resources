@@ -1,8 +1,6 @@
 package net.billschofield.oop_examples.testing_loops;
 
-import org.junit.Test;
-
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
 
 public class MenuTest {
 

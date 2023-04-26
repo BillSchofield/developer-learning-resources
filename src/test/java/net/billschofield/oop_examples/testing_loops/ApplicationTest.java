@@ -1,17 +1,16 @@
 package net.billschofield.oop_examples.testing_loops;
 
-import org.junit.Ignore;
-import org.junit.Test;
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
 
 import java.io.BufferedReader;
 
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 public class ApplicationTest {
 
     @Test
-    @Ignore
+    @Disabled
     public void shouldShouldContinueUntilUserQuits() {
         BufferedReader bufferedReader = mock(BufferedReader.class);
         Menu menu = mock(Menu.class);

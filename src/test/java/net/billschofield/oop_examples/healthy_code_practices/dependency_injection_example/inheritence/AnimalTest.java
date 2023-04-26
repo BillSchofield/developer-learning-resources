@@ -1,7 +1,9 @@
 package net.billschofield.oop_examples.healthy_code_practices.dependency_injection_example.inheritence;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 import java.io.PrintStream;
+
 import static org.mockito.Mockito.mock;
 
 public class AnimalTest {

@@ -40,6 +40,6 @@ public class Character {
 	}
 
 	public String toString(){
-		return "Character: " + name + ", Heading: " + heading * 180/ PI + ",  Position: (" + x + ", " + y + ")";
+		return "Character: " + name + ", Heading: " + Math.toDegrees(heading) + ",  Position: (" + x + ", " + y + ")";
 	}
 }

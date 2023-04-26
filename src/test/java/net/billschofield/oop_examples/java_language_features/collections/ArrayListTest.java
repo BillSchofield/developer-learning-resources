@@ -1,29 +1,27 @@
 package net.billschofield.oop_examples.java_language_features.collections;
 
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
-import static org.junit.Assert.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ArrayListTest {
 
     private List<String> listOfStrings;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         listOfStrings = new ArrayList<>();
     }
 
     @Test
     public void shouldBeACollection(){
-        assertThat(listOfStrings, is(instanceOf(Collection.class)));
+        assertThat(listOfStrings).isInstanceOf(Collection.class);
     }
 
     @Test
@@ -31,7 +29,7 @@ public class ArrayListTest {
         listOfStrings.add("a");
         listOfStrings.add("a");
 
-        assertThat(listOfStrings, hasSize(equalTo(2)));
+        assertThat(listOfStrings).hasSize(2);
     }
 
     @Test
@@ -44,7 +42,6 @@ public class ArrayListTest {
         String[] actual = new String[2];
         listOfStrings.toArray(actual);
 
-        assertThat(actual, is(inOrder));
+        assertThat(actual).isEqualTo(inOrder);
     }
-
 }

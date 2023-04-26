@@ -23,10 +23,8 @@ public class PlayerController {
 		);
 
 		player.setHeading(angleToTarget);
-		System.out.println(player);
 
 		player.setX(player.getX() + cos(player.getHeading()));
 		player.setY(player.getY() + sin(player.getHeading()));
-		System.out.println(player);
 	}
 }
