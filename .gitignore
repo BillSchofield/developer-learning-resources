@@ -3,3 +3,4 @@
 *.class
 *.iml
 /build/
+src/.DS_Store

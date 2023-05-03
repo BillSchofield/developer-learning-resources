@@ -15,7 +15,7 @@ public class ArrayListTest {
     private List<String> listOfStrings;
 
     @BeforeEach
-    public void setUp() throws Exception {
+    public void setUp() {
         listOfStrings = new ArrayList<>();
     }
 

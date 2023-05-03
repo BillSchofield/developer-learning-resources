@@ -29,9 +29,11 @@ public class TreeMapTest {
     public void shouldNotPutKeysInOrderAdded(){
         stringToStringMap.put("aaa", "");
         stringToStringMap.put("b", "");
+        stringToStringMap.put("c", "");
+        stringToStringMap.put("a", "");
 
 
-        String[] inOrderAdded = {"aa", "b"};
+        String[] inOrderAdded = {"aaa", "b", "c", "a"};
 
         Set<String> keySet = stringToStringMap.keySet();
         String[] keys = new String[2];
@@ -52,6 +54,6 @@ public class TreeMapTest {
         String[] keys = new String[2];
         keySet.toArray(keys);
 
-        assertThat(keys).isNotEqualTo(inAlphabeticalOrder);
+        assertThat(keys).isEqualTo(inAlphabeticalOrder);
     }
 }

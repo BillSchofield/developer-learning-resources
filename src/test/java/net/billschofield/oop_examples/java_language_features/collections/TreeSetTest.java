@@ -41,7 +41,7 @@ public class TreeSetTest {
         String[] actual = new String[3];
         setOfStrings.toArray(actual);
 
-        assertThat(actual).isNotEqualTo(inOrder);
+        assertThat(actual).isEqualTo(inOrder);
     }
 
 }

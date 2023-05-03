@@ -3,7 +3,7 @@ package net.billschofield.oop_examples.java_language_features.collections;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class Main {
+public class UseMostBasicInterface {
 
     public static void main(String[] args) {
         {
