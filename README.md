@@ -1,4 +1,4 @@
-# Dev Resources
+# Developer Learning Resources
 * ### [Object Oriented Design](ObjectOrientedDesign.md)
 * ### [Effective Coding Practices](EffectiveCodingPractices.md)
 * ### [Useful Computer Science Concepts](UsefulComputerScienceConcepts.md)
