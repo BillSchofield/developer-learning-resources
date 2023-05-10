@@ -13,32 +13,6 @@ public class ListExamples {
 	}
 
 	private static void arrayList() {
-		/* ArrayLists are implemented as arrays that get resized to make room
-		and parts of them are moved "down" to make room when a new item is
-		inserted in the middle.
-
-
-		_______________________________________
-		| "first" | "third" | ------ | ------ |
-		---------------------------------------
-
-		arrayList.add(1,"second");
-
-		Move part of the list right to make room for inserted element
-		_______________________________________
-		| "first" | ------ | "third" | ------ |
-		---------------------------------------
-
-		Insert element into new empty space
-		_________________________________________
-		| "first" | "second" | "third" | ------ |
-		-----------------------------------------
-
-		What happens when there's not enough room for the new element?
-
-
-		 */
-
 		var arrayList = new ArrayList<String>();
 		System.out.println(arrayList.size());
 		arrayList.add("first");
@@ -60,19 +34,6 @@ public class ListExamples {
 		arrayList.get(500000);
 	}
 	private static void linkedList() {
-		/*
-
-		Linked lists nodes that are linked together to form a list. The Java
-		implementation looks like this:
-
-		            First Node      Second Node
-		(first) --->| prev |<-------| prev |<--- (last)
-					| item |        | item |
-					| next | ------>| next |
-
-		 */
-
-
 		var linkedList = new LinkedList<String>();
 
 		System.out.println(linkedList.size());
