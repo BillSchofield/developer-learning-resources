@@ -1,5 +1,5 @@
 # Developer Learning Resources
-* ### [Object Oriented Design](ObjectOrientedDesign.md)
-* ### [Effective Coding Practices](EffectiveCodingPractices.md)
-* ### [Useful Computer Science Concepts](UsefulComputerScienceConcepts.md)
-* ### [Refactoring](Refactoring.md)  
+* ### [Object Oriented Design](content/ObjectOrientedDesign.md)
+* ### [Effective Coding Practices](content/EffectiveCodingPractices.md)
+* ### [Useful Computer Science Concepts](content/UsefulComputerScienceConcepts.md)
+* ### [Refactoring](content/Refactoring.md)  

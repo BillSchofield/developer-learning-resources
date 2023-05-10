@@ -35,7 +35,7 @@ A type of list that is implemented in terms of an array
 #### [Linked List](https://en.wikipedia.org/wiki/Linked_list)
 A list where the elements are represented as nodes that point to the 'next'
 node in the list.
-![Linked List Example](src/main/resources/linkedlist.png)
+![Linked List Example](../src/main/resources/linkedlist.png)
 ### Set
 A collection where duplicate elements are not allowed. Typically, the duplicate
 element is ignored when added.
@@ -80,7 +80,7 @@ the object that we are looking up. If the object has been added to the hash tabl
 will find it in the correct bucket otherwise we can report that the object wasn't found.
 
 We use a similar process to add an object to the hash table.
-![Hash Table Example](src/main/resources/hashtable.png)
+![Hash Table Example](../src/main/resources/hashtable.png)
 
 ##### Note
 In Java, HashMap is implemented using a HashTable and HashSet is implemented with a HashMap.
@@ -93,7 +93,7 @@ the tree.
 A common type of tree where each node has two children which are usually named
 something like 'leftChild' and 'rightChild'. This tree is kept 'sorted' by
 making nodes that are before the current node in the left sub-tree of that node.
-![Binary Search Tree Example](src/main/resources/binarysearchtree.png)
+![Binary Search Tree Example](../src/main/resources/binarysearchtree.png)
 
 
 ### Map
