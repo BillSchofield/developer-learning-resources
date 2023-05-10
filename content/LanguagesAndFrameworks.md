@@ -15,7 +15,8 @@ BDD is a way for software teams to work that closes the gap between business peo
 ```
 Things to note about this example are:
 * Concise - We only use concepts that are relevant to this scenario.
-* Domain-centered and User-centered. Users should be able to read them and understand them. <Cucumber.io 1922 example> 
+* Domain-centered and User-centered. Users should be able to read them and understand them.
+* Does not operate your product. <Cucumber.io 1922 example>
 * Specific enough - It contains enough detail that you understand what the test represents.
 
 ### Files to look at:
