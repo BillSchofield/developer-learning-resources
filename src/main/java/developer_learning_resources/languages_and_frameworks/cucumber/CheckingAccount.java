@@ -1,4 +1,4 @@
-package cucumber;
+package developer_learning_resources.languages_and_frameworks.cucumber;
 
 public class CheckingAccount {
 	private double balance;
