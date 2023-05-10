@@ -3,3 +3,4 @@
 * ### [Effective Coding Practices](content/EffectiveCodingPractices.md)
 * ### [Useful Computer Science Concepts](content/UsefulComputerScienceConcepts.md)
 * ### [Refactoring](content/Refactoring.md)  
+* ### [Languages and Frameworks](content/LanguagesAndFrameworks.md)
