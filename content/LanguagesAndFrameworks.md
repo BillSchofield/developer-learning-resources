@@ -23,6 +23,7 @@ Things to note about this example are:
 * [Checking Account Scenario file](../src/test/resources/features/CheckingAccount.feature)
 * [CheckingAccountStepDefinitions.java](../src/main/java/developer_learning_resources/languages_and_frameworks/cucumber/CheckingAccount.java)
 * [Report that shows up after you run the scenarios. Open outside of IDE.](../target/cucumber-report.html)
+
 ## References
 * [Cucumber.io Guides](https://cucumber.io/docs/guides/)
 * [Behaviour-Driven Development from cucumber.io](https://cucumber.io/docs/bdd/)
